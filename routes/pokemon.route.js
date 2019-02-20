@@ -5,7 +5,7 @@ const pokemon_controller = require('../controllers/pokemon.controller')
 
 router.get('/all', pokemon_controller.all)
 
-router.get('/find/:name', pokemon_controller.find_one)
+router.get('/create', pokemon_controller.find_one)
 
 router.post('/pokemon', pokemon_controller.pokemon_create)
 
